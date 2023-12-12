@@ -1,7 +1,7 @@
 # Maze
 A University project in which I defined and implemented a stack class and used it to conduct a depth-first search
 # Usage
-To run this program yourself, download the source code files, type 'make' into the command line, and direct the test cases (the ones provided are maze0, maze1...) into proj3.x (e.g. maze3 < proj3.x).
+To run this program yourself, download the source code files, type 'make' into the command line, and direct the test cases (the ones provided are maze0, maze1...) into proj3.x (e.g. proj3.x < maze3).
 # How it Works
 The runnable program reads a maze and creates a vector holding objects representing each point in the maze. Each object 'node' holds the x and y coordinates of the node, the value of the node (is used to determine what walls a point in the maze has), and a boolean to determine whether the node has been visited or not. To find the path through a given maze, the program uses the stack template I implemented to conduct a depth-first search on the vector. If a path is found, the program spits out the x and y coordinates of each point in the path stored in the stack. If not, a failure message is printed.
 # Format of Mazes
